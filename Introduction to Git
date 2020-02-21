@@ -1,0 +1,69 @@
+Intro to Git:---
+Git is a distributed revision control and source code management system with an emphasis on speed. 
+Git was initially designed and developed by Linus Torvalds for Linux kernel development. 
+Git is a free software distributed under the terms of the GNU General Public License version 2.
+
+Version Control System:-
+
+Version Control System (VCS) is a software that helps software developers to work together and maintain a complete history of their work.
+Listed below are the functions of a VCS −
+
+---->Allows developers to work simultaneously.
+---->Does not allow overwriting each other’s changes.
+---->Maintains a history of every version.
+
+Following are the types of VCS −
+    Local Control version system(LCVS)
+    Centralized version control system (CVCS).
+    Distributed/Decentralized version control system (DVCS).
+    
+Distributed Version Control System:-
+        Centralized version control system (CVCS) uses a central server to store all files and enables team collaboration.
+        But the major drawback of CVCS is its single point of failure, i.e., failure of the central server. 
+        Unfortunately, if the central server goes down for an hour, then during that hour, no one can collaborate at all. 
+        And even in a worst case, if the disk of the central server gets corrupted and proper backup has not been taken, then you will lose the entire history of the project.
+        Here, distributed version control system (DVCS) comes into picture.DVCS clients not only check out the latest snapshot of the directory but they also fully mirror the repository.
+        If the server goes down, then the repository from any client can be copied back to the server to restore it. 
+        Every checkout is a full backup of the repository. 
+        Git does not rely on the central server and that is why you can perform many operations when you are offline.
+        You can commit changes, create branches, view logs, and perform other operations when you are offline. 
+        You require network connection only to publish your changes and take the latest changes.
+        
+ Centralized Version Control System:-
+        Centralized Version Control is the simplest system with the concept of 1 central repository which servers provides latest code to the all the clients across the globe
+        Distributed Version Control provides flexibility and has emerged with the concept that everyone has their own repository, 
+        they don’t just check out the snapshot of the code – they fully mirror the central repository.
+        
+        
+ Advantages of Git:-
+     
+     Free and open source:-
+         Git is released under GPL’s open source license. It is available freely over the internet.
+         You can use Git to manage property projects without paying a single penny. As it is an open source,
+         you can download its source code and also perform changes according to your requirements.
+         
+         
+     Fast and small:-
+         As most of the operations are performed locally, 
+         it gives a huge benefit in terms of speed. 
+         Git does not rely on the central server; that is why, there is no need to interact with the remote server for every operation.
+         The core part of Git is written in C, which avoids runtime overheads associated with other high-level languages. 
+         Though Git mirrors entire repository, the size of the data on the client side is small.
+         This illustrates the efficiency of Git at compressing and storing data on the client side.
+         
+         
+         
+     Security:-
+         Git uses a common cryptographic hash function called secure hash function (SHA1), 
+         to name and identify objects within its database.
+         Every file and commit is check-summed and retrieved by its checksum at the time of checkout. 
+         It implies that, it is impossible to change file, date, and commit message and any other data from the Git database without knowing Git.
+ 
+      
+        
+        
+        
+    
+
+
+
