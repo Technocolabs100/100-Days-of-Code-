@@ -1,2 +1,16 @@
 # 100-Days-of-Code-
-Greeting from Technocolabs. We are very glad to contacts you for our non-profit organization leading with information technologies in Indore. Technocolabs is an Organization followed by Technical experts in leading technologies such as Python, Machine learning, Java, C , C++ and Data Science etc. Technocolabs has Start an initiative Programs called 100 Days of Code for students wants to grow technical Skills in Technologies with the mentor-ship by technical experts.  The Program is followed by Online and In this Program of 100 Days of Code is absolutely free there is no cost of mentor-ship taking by mentors. In this 100 Days of Code students can learn about advanced to Basic concepts of Programming in Data Structures and Algorithms.
+## Day 0
+- Introduction.
+- Joined Progate
+- What is Git?
+- What is Version Control?
+- What is Distributed Version Control?
+- What is Centralised Version Control?
+## Day 1
+- Git Workspace and Installation
+- Git Configuration
+- Git Command Initialization
+- Three Stage Architecture of Git
+- Tracking our First Project
+## Day 2
+- Assignment 1
