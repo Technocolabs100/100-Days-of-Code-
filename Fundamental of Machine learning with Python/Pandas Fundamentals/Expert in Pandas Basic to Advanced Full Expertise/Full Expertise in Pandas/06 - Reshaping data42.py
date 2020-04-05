@@ -1,0 +1,1 @@
+temp.reset_index(name='Fare')
