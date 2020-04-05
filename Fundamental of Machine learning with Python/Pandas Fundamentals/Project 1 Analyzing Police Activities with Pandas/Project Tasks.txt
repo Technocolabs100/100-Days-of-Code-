@@ -1,0 +1,4 @@
+1.Preparing the Data for Analysis.
+2. Exploring the relationships between Gender and Policing.
+3. Visual Exploratory Data Analysis.
+4.Analyzing the effect of weather on policing.
